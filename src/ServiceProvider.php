@@ -16,7 +16,7 @@ class ServiceProvider extends IlluminateServiceProvider
     public function register()
     {
         $this->mergeConfigFrom(
-            dirname(dirname(__DIR__)) . '/config/json-api-v2.php', 'json-api-v2'
+            __DIR__ . '/config/json-api-v2.php', 'json-api-v2'
         );
     }
 }
