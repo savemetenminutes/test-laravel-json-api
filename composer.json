@@ -1,0 +1,42 @@
+{
+  "name": "savemetenminutes/test-laravel-json-api",
+  "description": "ShitHell",
+  "type": "library",
+  "keywords": [
+  ],
+  "homepage": "",
+  "license": "BSD-3-Clause",
+  "authors": [
+    {
+      "name": "Milen Kirilov",
+      "email": "savemetenminutes@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.30",
+    "cloudcreativity/laravel-json-api": "^1.1.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "Smtm\\TestLaravelJsonApi\\": "src/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": "dist",
+    "sort-packages": true,
+    "optimize-autoloader": true,
+    "vendor-dir": "../../"
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "Smtm\\TestLaravelJsonApi\\ServiceProvider"
+      ],
+      "aliases": {
+
+      }
+    }
+  }
+}
