@@ -13,7 +13,8 @@
     }
   ],
   "require": {
-    "php": "^7.30",
+    "php": "^7.3.0",
+
     "cloudcreativity/laravel-json-api": "^1.1.0"
   },
   "autoload": {
