@@ -1,5 +1,7 @@
 <?php
 
+use Smtm\TestLaravelJsonApi\JsonApi\Users\User;
+
 return [
     /*
     |--------------------------------------------------------------------------
@@ -37,7 +39,7 @@ return [
     | `'posts' => App\Post::class`
     */
     'resources' => [
-        'users' => 'Helden\NvExtraZuersApiInterface\ApiConsumer\JsonApi\Plz\Model',
+        'users' => User::class,
     ],
 
     /*
