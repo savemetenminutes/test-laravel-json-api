@@ -9,7 +9,7 @@ class ServiceProvider extends IlluminateServiceProvider
     public function boot()
     {
         $this->loadRoutesFrom(
-            dirname(dirname(__DIR__)) . '/routes/api.php'
+            __DIR__ . '/routes/api.php'
         );
     }
 
