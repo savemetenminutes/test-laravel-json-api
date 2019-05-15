@@ -2,7 +2,9 @@
 
 namespace Smtm\TestLaravelJsonApi;
 
-class ServiceProvider
+use Illuminate\Support\ServiceProvider as IlluminateServiceProvider;
+
+class ServiceProvider extends IlluminateServiceProvider
 {
     public function boot()
     {
