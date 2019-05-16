@@ -13,5 +13,11 @@
                     //'only' => ['read'],
                 ]
             );
+            $api->resource(
+                'product-variants',
+                [
+                    //'only' => ['read'],
+                ]
+            );
         }
     );

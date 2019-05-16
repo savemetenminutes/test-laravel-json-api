@@ -39,8 +39,9 @@ return [
     'resources' => [
         'users' => \Smtm\TestLaravelJsonApi\JsonApi\Users\User::class,
         'contracts' => \Smtm\TestLaravelJsonApi\JsonApi\Contracts\Contract::class,
-        'product-variant' => \Smtm\TestLaravelJsonApi\JsonApi\ProductVariant\ProductVariant::class,
+        'product-variants' => \Smtm\TestLaravelJsonApi\JsonApi\ProductVariants\ProductVariant::class,
         'contract-details' => \Smtm\TestLaravelJsonApi\JsonApi\ContractDetails\ContractDetails::class,
+        'products' => \Smtm\TestLaravelJsonApi\JsonApi\Products\Product::class,
     ],
 
     /*

@@ -11,6 +11,8 @@ class Schema extends SchemaProvider
     
     protected $resourceType = 'contracts';
 
+    protected $isShowAttributesInIncluded = true;
+
     public function getAttributes($resource)
     {
         $attributes = $resource->getAttributes();

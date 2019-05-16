@@ -1,6 +1,6 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\ProductVariant;
+namespace Smtm\TestLaravelJsonApi\JsonApi\ProductVariants;
 
 use CloudCreativity\LaravelJsonApi\Validation\AbstractValidators;
 

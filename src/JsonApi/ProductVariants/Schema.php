@@ -1,14 +1,14 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\Products;
+namespace Smtm\TestLaravelJsonApi\JsonApi\ProductVariants;
 
 use Neomerx\JsonApi\Schema\SchemaProvider;
 
 class Schema extends SchemaProvider
 {
-    protected $resourceType = 'products';
+    protected $resourceType = 'product-variants';
 
-    //protected $isShowAttributesInIncluded = true;
+    protected $isShowAttributesInIncluded = true;
 
     public function getAttributes($resource)
     {
@@ -24,10 +24,10 @@ class Schema extends SchemaProvider
     public function getRelationships($resource, $isPrimary, array $includeRelationships)
     {
         return [
-            'product-variants' => [
+            'product' => [
                 self::SHOW_SELF => true,
                 self::SHOW_RELATED => true,
-                self::DATA => $resource->productVariants,
+                self::DATA => $resource->product,
             ],
         ];
     }
