@@ -1,9 +1,9 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\Products;
+namespace Smtm\TestLaravelJsonApi\JsonApi\Product;
 
 use Illuminate\Database\Eloquent\Model;
-use Smtm\TestLaravelJsonApi\JsonApi\ProductVariants\ProductVariant;
+use Smtm\TestLaravelJsonApi\JsonApi\ProductVariant\ProductVariant;
 
 class Product extends Model
 {

@@ -1,13 +1,10 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\Contracts;
+namespace Smtm\TestLaravelJsonApi\JsonApi\Contract;
 
-use Illuminate\Auth\Authenticatable;
 use Illuminate\Database\Eloquent\Model as EloquentModel;
-use Illuminate\Database\Eloquent\Relations\HasMany;
-use Illuminate\Foundation\Auth\Access\Authorizable;
-use Smtm\TestLaravelJsonApi\JsonApi\ProductVariants\ProductVariant;
-use Smtm\TestLaravelJsonApi\JsonApi\Users\User;
+use Smtm\TestLaravelJsonApi\JsonApi\ProductVariant\ProductVariant;
+use Smtm\TestLaravelJsonApi\JsonApi\User\User;
 
 class Contract extends EloquentModel
 {

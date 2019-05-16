@@ -1,7 +1,5 @@
 <?php
 
-use Smtm\TestLaravelJsonApi\JsonApi\Users\Contract;
-
 return [
     /*
     |--------------------------------------------------------------------------
@@ -39,7 +37,7 @@ return [
     | `'posts' => App\Post::class`
     */
     'resources' => [
-        'users' => Contract::class,
+        'users' => \Smtm\TestLaravelJsonApi\JsonApi\User\User::class,
     ],
 
     /*

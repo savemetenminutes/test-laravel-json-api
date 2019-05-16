@@ -1,6 +1,6 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\Users;
+namespace Smtm\TestLaravelJsonApi\JsonApi\User;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Smtm\TestLaravelJsonApi\JsonApi\Contracts\Contract;

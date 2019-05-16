@@ -1,6 +1,6 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\ProductVariants;
+namespace Smtm\TestLaravelJsonApi\JsonApi\ProductVariant;
 
 use Illuminate\Database\Eloquent\Model;
 use Smtm\TestLaravelJsonApi\JsonApi\Contracts\Contract;

@@ -1,6 +1,6 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\ProductVariants;
+namespace Smtm\TestLaravelJsonApi\JsonApi\ProductVariant;
 
 use Neomerx\JsonApi\Schema\SchemaProvider;
 
