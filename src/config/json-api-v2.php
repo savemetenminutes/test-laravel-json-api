@@ -37,7 +37,7 @@ return [
     | `'posts' => App\Post::class`
     */
     'resources' => [
-        'users' => \Smtm\TestLaravelJsonApi\JsonApi\User\User::class,
+        'users' => \Smtm\TestLaravelJsonApi\JsonApi\Users\User::class,
     ],
 
     /*

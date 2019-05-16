@@ -1,6 +1,6 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\User;
+namespace Smtm\TestLaravelJsonApi\JsonApi\Contracts;
 
 use Neomerx\JsonApi\Schema\SchemaProvider;
 

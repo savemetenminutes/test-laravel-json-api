@@ -1,10 +1,10 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\Contract;
+namespace Smtm\TestLaravelJsonApi\JsonApi\Contracts;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
 use Smtm\TestLaravelJsonApi\JsonApi\ProductVariant\ProductVariant;
-use Smtm\TestLaravelJsonApi\JsonApi\User\User;
+use Smtm\TestLaravelJsonApi\JsonApi\Users\User;
 
 class Contract extends EloquentModel
 {
