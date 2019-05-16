@@ -3,6 +3,7 @@
 namespace Smtm\TestLaravelJsonApi\JsonApi\Users;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
+use Illuminate\Support\Facades\DB;
 use Smtm\TestLaravelJsonApi\JsonApi\Contracts\Contract;
 
 class User extends EloquentModel

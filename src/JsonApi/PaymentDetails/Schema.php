@@ -1,12 +1,12 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\Products;
+namespace Smtm\TestLaravelJsonApi\JsonApi\PaymentDetails;
 
 use Neomerx\JsonApi\Schema\SchemaProvider;
 
 class Schema extends SchemaProvider
 {
-    protected $resourceType = 'products';
+    protected $resourceType = 'contracts';
 
     public function getAttributes($resource)
     {

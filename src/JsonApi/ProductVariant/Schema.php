@@ -6,13 +6,18 @@ use Neomerx\JsonApi\Schema\SchemaProvider;
 
 class Schema extends SchemaProvider
 {
+    protected $resourceType = 'product-variants';
+
     public function getAttributes($resource)
     {
-        // TODO: Implement getAttributes() method.
+        $attributes = $resource->getAttributes();
+        unset($attributes['id']);
+
+        return $attributes;
     }
 
     public function getId($resource)
     {
-        // TODO: Implement getId() method.
+        return $resource->getKey();
     }
 }

@@ -1,14 +1,12 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\Contracts;
+namespace Smtm\TestLaravelJsonApi\JsonApi\PaymentDetails;
 
 use Illuminate\Database\Eloquent\Model as EloquentModel;
-use Smtm\TestLaravelJsonApi\JsonApi\ContractDetails\ContractDetails;
-use Smtm\TestLaravelJsonApi\JsonApi\PaymentDetails\PaymentDetails;
 use Smtm\TestLaravelJsonApi\JsonApi\ProductVariant\ProductVariant;
 use Smtm\TestLaravelJsonApi\JsonApi\Users\User;
 
-class Contract extends EloquentModel
+class PaymentDetails extends EloquentModel
 {
     /**
      * @var string
@@ -27,11 +25,6 @@ class Contract extends EloquentModel
 
     public function contactDetails()
     {
-        return $this->belongsTo(ContractDetails::class);
-    }
-
-    public function paymentDetails()
-    {
-        return $this->belongsTo(PaymentDetails::class);
+        return $this->belongsTo('App\Models\ContactDetails');
     }
 }

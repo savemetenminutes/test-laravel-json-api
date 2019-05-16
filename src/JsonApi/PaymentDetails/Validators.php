@@ -1,6 +1,6 @@
 <?php
 
-namespace Smtm\TestLaravelJsonApi\JsonApi\Products;
+namespace Smtm\TestLaravelJsonApi\JsonApi\PaymentDetails;
 
 use CloudCreativity\LaravelJsonApi\Validation\AbstractValidators;
 

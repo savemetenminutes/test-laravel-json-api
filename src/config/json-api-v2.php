@@ -38,6 +38,9 @@ return [
     */
     'resources' => [
         'users' => \Smtm\TestLaravelJsonApi\JsonApi\Users\User::class,
+        'contracts' => \Smtm\TestLaravelJsonApi\JsonApi\Contracts\Contract::class,
+        'product-variant' => \Smtm\TestLaravelJsonApi\JsonApi\ProductVariant\ProductVariant::class,
+        'contract-details' => \Smtm\TestLaravelJsonApi\JsonApi\ContractDetails\ContractDetails::class,
     ],
 
     /*
